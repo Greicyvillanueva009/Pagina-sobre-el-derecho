@@ -1,0 +1,56 @@
+/* 🎓 Estilo general de la página de Derecho creada por Greicy Villanueva */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  background-image: url('img/fondo.jpg'); /* fondo local */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* 🔷 Encabezado */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 30px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #f4d03f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* 📚 Sección principal */
+main {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 1.8;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+main h2 {
+  color: #f4d03f;
+  border-bottom: 2px solid #f4d03f;
