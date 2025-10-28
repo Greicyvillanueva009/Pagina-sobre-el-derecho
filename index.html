@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derecho Informativo</title>
+
+  <style>
+    /* --- Fondo general --- */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #222;
+      background-image: url('https://cdn.pixabay.com/photo/2016/02/19/10/00/law-1200x800.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* --- Filtro para mejor lectura --- */
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.90);
+      min-height: 100vh;
+    }
+
+    /* --- Encabezado --- */
+    header {
+      background-color: rgba(30, 58, 138, 0.9);
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      width: 70px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.3em;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.1em;
+    }
+
+    /* --- Menú de navegación --- */
+    nav {
+      background-color: rgba(37, 99, 235, 0.9);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #1e3a8a;
+    }
+
+    /* --- Secciones --- */
+    section {
+      background: rgba(255, 255, 255, 0.8);
+      margin: 50px auto;
+      padding: 40px 25px;
+      max-width: 900px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #1e3a8a;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      text-align: left;
+      line-height: 1.8;
+    }
+
+    /* --- Pie de página --- */
+    footer {
+      background-color: rgba(30, 58, 138, 0.95);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #facc15;
+      text-decoration: none;
+    }
+
+    /* --- Responsivo (celulares) --- */
+    @media (max-width: 600px) {
+      header h1 {
+        display: block;
+        font-size: 1.8em;
+      }
+      header img {
+        width: 60px;
+        margin-bottom: 10px;
+      }
+      nav a {
+        padding: 10px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <!-- Encabezado -->
+    <header>
+      <img src="https://cdn-icons-png.flaticon.com/512/64/64572.png" alt="Balanza de la justicia">
+      <h1>Derecho Informativo</h1>
+      <p>Explorando el conocimiento jurídico con claridad y justicia</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#ramas">Ramas del Derecho</a>
+      <a href="#importancia">Importancia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Secciones -->
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>El Derecho es el conjunto de normas creadas para garantizar el orden, la paz y la justicia dentro de una sociedad. A través de esta página, podrás comprender mejor sus principios fundamentales y su papel esencial en la convivencia humana.</p>
+    </section>
+
+    <section id="ramas">
+      <h2>Ramas del Derecho</h2>
+      <ul>
+        <li><b>Derecho Civil:</b> regula las relaciones entre particulares.</li>
+        <li><b>Derecho Penal:</b> establece las sanciones frente a conductas delictivas.</li>
+        <li><b>Derecho Constitucional:</b> organiza la estructura del Estado.</li>
+        <li><b>Derecho Laboral:</b> protege los derechos de los trabajadores.</li>
+        <li><b>Derecho Internacional:</b> regula las relaciones entre naciones.</li>
+      </ul>
+    </section>
+
+    <section id="importancia">
+      <h2>Importancia del Derecho</h2>
+      <p>El Derecho es esencial porque garantiza la equidad, protege los derechos humanos y proporciona los mecanismos necesarios para resolver los conflictos. Es la base que mantiene el equilibrio y la justicia en la sociedad.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes consultas o deseas aportar contenido? Escríbenos a:</p>
+      <p><b>contacto@derechoinformativo.com</b></p>
+      <p>Síguenos también en <a href="#">Facebook</a> y <a href="#">Instagram</a>.</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>© 2025 Derecho Informativo | Página creada por <b>Greicy Villanueva</b></p>
+    </footer>
+  </div>
+</body>
+</html>
+
